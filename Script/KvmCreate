@@ -1,0 +1,20 @@
+#!/bin/bash
+
+
+#[ruday@RUDAY-LI ~]$ virt-install --name=linux --vcpus=1 --memory=512 --cdrom=/home/ruday/Téléchargements/CentOS-7-x86_64-DVD-1708.iso --disk size=5
+liste="name vcpu memory cdrom DiskSize os exit"
+PS3="select your options"
+select i in $liste;do
+	echo "you choose $REPLY : $i"
+	case $REPLY in
+		1)
+			echo "test1"
+			;;
+		2)
+			echo "test2"
+			;;
+		*)
+			exit 0
+			;;
+	esac
+done

@@ -1,0 +1,5 @@
+[Rudder_4.1]
+name=Rudder 4.1 EL repository 
+baseurl=http://www.rudder-project.org/rpm-4.1/RHEL_$releasever/
+gpgcheck=1
+gpgkey=http://www.rudder-project.org/rpm-4.1/RHEL_$releasever/repodata/repomd.xml.key

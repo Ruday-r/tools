@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "test"
+ARGUMENTS="$@"
+ARG1="$1"
+EXITCODE="$?"
+COUNTOFARGS="$#"
+PID="$$"
+ALLARGS="$*"

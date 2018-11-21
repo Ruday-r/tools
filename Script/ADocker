@@ -1,0 +1,10 @@
+#!/bin/bash
+OS=$1
+OSLIST="debian centos"
+CONTAINER=""
+if [ -z "$1" ];then
+	for $i in $OSLIST;do
+		if [ "$1" -eq OS
+docker create -t -i "$1" bash > "$CONTAINER"
+docker start -a -i "$CONTAINER"
+fi
